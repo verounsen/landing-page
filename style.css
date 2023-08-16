@@ -12,14 +12,13 @@ a {
     text-decoration: none;
     color: white;
 }
+
 img {
     padding-left: 20px;
-    
+
 }
 
 button {
-    margin-top: 20px;
-    padding: 4px;
     border-radius: 4px;
     color: white;
     background-color: #3882F6;
@@ -38,20 +37,22 @@ button:active {
     box-shadow: none;
 
 }
+
 .header-top {
     padding-top: 5px;
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
-.header, .footer {
+.header,
+.footer {
     color: white;
     padding-left: 50px;
     padding-right: 50px;
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    }
+}
 
 
 .header-bottom {
@@ -62,7 +63,7 @@ button:active {
 }
 
 .menu {
-    
+
     display: flex;
     width: 120px;
     justify-content: flex-end;
@@ -75,11 +76,11 @@ button:active {
 
 
 .top-left {
-    
-display: flex;
-flex-direction: column;
-width: 300px;
-min-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-width: 200px;
 }
 
 .top-title {
@@ -89,14 +90,14 @@ min-width: 200px;
 }
 
 .top-text {
-    padding-top: 12px;
+    padding: 12px 0 15px 0;
     font-size: 13px;
 }
 
 .logo {
     font-size: 15px;
     font-weight: 900;
-    
+
 }
 
 .M1 {
@@ -106,7 +107,7 @@ min-width: 200px;
     justify-content: flex-start;
     align-items: center;
     flex: 1;
-    
+
 }
 
 .m1-top {
@@ -115,12 +116,12 @@ min-width: 200px;
 }
 
 .m1-bottom {
-    padding: 30px 50px 0 50px;
+    padding: 30px 30px 0 30px;
     display: flex;
     flex: 1;
     flex-wrap: wrap;
     gap: 30px;
-    
+
 }
 
 .M2 {
@@ -130,14 +131,14 @@ min-width: 200px;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #E5E7Eb;    
+    background-color: #E5E7Eb;
 }
 
 .m2-text {
     width: 460px;
     font-style: italic;
     font-size: 20px;
-    
+
 }
 
 .m2-signature {
@@ -165,6 +166,37 @@ min-width: 200px;
     padding-top: 20px;
     text-align: center;
     width: 150px;
+}
+
+.bottom {
+    color: white;
+    margin: 50px;
+    padding: 20px 40px 12px 40px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.bottom-right {
+    padding-left: 12px;
+}
+
+.button2 {
+    border: 1.5px solid white;
+    
+}
+
+.bottom-title {
+    font-weight: 900;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.bottom-text {
+    font-size: 14px;
+    max-width: 300px;
 }
 
 .footer {
