@@ -200,5 +200,7 @@ button:active {
 }
 
 .footer {
+    padding: 7px;
     text-align: center;
+    font-size: 15px;
 }
